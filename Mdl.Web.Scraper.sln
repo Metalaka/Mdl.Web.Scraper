@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mdl.Web.Scraper.Ui.ConsoleApp", "Mdl.Web.Scraper.Ui.ConsoleApp\Mdl.Web.Scraper.Ui.ConsoleApp.csproj", "{688F6715-45D5-4BC7-B7D7-2959ED00F935}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{688F6715-45D5-4BC7-B7D7-2959ED00F935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688F6715-45D5-4BC7-B7D7-2959ED00F935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688F6715-45D5-4BC7-B7D7-2959ED00F935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688F6715-45D5-4BC7-B7D7-2959ED00F935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D948EF8-134E-4CB4-8084-E1F34C672469}
+	EndGlobalSection
+EndGlobal

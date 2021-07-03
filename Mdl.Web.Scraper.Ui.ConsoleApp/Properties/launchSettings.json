@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Mdl.Web.Scraper.Ui.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "-i urls.txt"
+    }
+  }
+}
