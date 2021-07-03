@@ -73,7 +73,7 @@ namespace Mdl.Web.Scraper.Ui.ConsoleApp
                 if (response.StatusCode == HttpStatusCode.OK)
                 {
                     string readAsStringAsync = await response.Content.ReadAsStringAsync(cancellationToken);
-                    await using var handle = File.CreateText(Path.Combine(OutputPath, $"{workId.ToString()}.{i}.html"));
+                    await using var handle = File.CreateText(Path.Combine(OutputPath, $"{workId.ToString()}.{i}.data"));
                     await handle.WriteAsync(readAsStringAsync);
                 }
                 else
